@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Cordova</title>
+<script type="text/javascript" charset="utf-8" src="cordova-2.1.0.js"></script>
+<script type="text/javascript" src="index.js"></script>
+
+
+</head>
+<body>
+<h1>Hello World</h1>
+
+<audio id="successSound" src="file:///android_asset/www/sound/successSound.mp3"      type="audio/mpeg" ></audio>
+<audio id="errorSound" src="file///android_asset/www/sound/errorSound.mp3"   type="audio/mpeg" ></audio>
+
+<button onclick="playAudio('successSound')">Play successSound local</button>
+<button onclick="playAudio('errorSound')">Play errorSoundlocal</button>
+</body>
+</html>
